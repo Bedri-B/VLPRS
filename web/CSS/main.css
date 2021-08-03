@@ -1,0 +1,850 @@
+@font-face {
+    font-family: icons;
+    src: url('icons.ttf');
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(90deg, #0d0f21, #0a0223) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mtop {
+    margin-top: 6%;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+}
+
+.alert {
+    position: absolute;
+    margin: 20%;
+    height: 20px;
+    width: 25%;
+    animation: opaciter 5s;
+}
+
+.p-r {
+    position: relative !important;
+    width: 100%;
+}
+
+@keyframes opaciter {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.padding {
+    padding: 15px;
+}
+
+.slide {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+    transition: 0.25s;
+    cursor: pointer;
+    background-position: center;
+    opacity: 1;
+}
+
+.slide-n {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative !important;
+    background-position: center;
+    position: relative !important;
+}
+
+.slide:hover {
+    background-position-y: -50px;
+    background-size: 200px;
+    opacity: 1;
+    margin: 10px;
+}
+
+.slide:hover .bottom {
+    opacity: 1;
+}
+
+.image-card-container:hover {
+    box-shadow: 0px 0px 20px rgb(218, 218, 218);
+}
+
+.t-left h2 {
+    color: white !important;
+}
+
+.image-detail {
+    height: 450px;
+}
+
+.image-card {
+    position: relative;
+    height: 200px;
+}
+
+.item-c {
+    align-items: center;
+}
+
+.w-25 {
+    width: 20%;
+}
+
+.slide .t-left {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, black, transparent) !important;
+    border-radius: 10px;
+}
+
+.radius-c {
+    border-radius: 50px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 3px;
+    background: linear-gradient(0deg, black, transparent) !important
+}
+
+.t-left p {}
+
+.h-100 {
+    height: 650px;
+}
+
+.mrit {
+    margin-right: 2%;
+}
+
+.imgbg {
+    background: url(../images/image.jpg);
+    background-size: cover;
+    height: 300px
+}
+
+.logo {
+    width: 25px;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5%;
+    background: rgb(76, 43, 226);
+}
+
+.w-50 {
+    width: 50%
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.justify {
+    justify-content: center !important;
+}
+
+a {
+    font-size: 12px !important;
+}
+
+.btnn {
+    padding-left: 50px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btnn:hover {
+    background-color: rgb(24, 3, 83);
+}
+
+.green {
+    background-color: rgb(21, 8, 44);
+}
+
+.t-rit {
+    text-align: right;
+}
+
+body {
+    margin: 0px !important
+}
+
+.shadow {
+    box-shadow: 0px 0px 10px #eee;
+}
+
+.thin {
+    font-weight: lighter !important;
+    text-shadow: 1px 0px 14px black;
+}
+
+.p-rel {
+    position: relative;
+}
+
+td {
+    background-color: rgb(0, 7, 34);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid white;
+    outline: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+.red {
+    background-color: orangered !important;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.super {
+    font-size: 100px !important;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.white {
+    background: white;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0pt;
+    color: rgb(255, 255, 255);
+}
+
+b {
+    color: white;
+}
+
+.dark-input {
+    background-color: rgb(10, 9, 15);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+}
+
+.btnn:hover {
+    border-left: 20px solid white;
+}
+
+.m {
+    margin: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+th {
+    font-size: 10pt;
+    border: 1px solid #eee;
+}
+
+.image-card-container {
+    height: 270px;
+    transition: 0.25s;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.eee {
+    background-color: #eee !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.w-10 {
+    width: 10%
+}
+
+.w-20 {
+    width: 20%
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.scroll-snap {
+    scroll-snap-align: start;
+    height: auto;
+    width: 50%;
+}
+
+.nav-justify {
+    justify-content: space-evenly;
+    transition: 0.25s
+}
+
+.nav-justify div p {
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: right;
+}
+
+.t-left {
+    text-align: left !important;
+}
+
+.button-hover {
+    transition: 0.2s;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 34pt;
+}
+
+.b-none {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.card-bg {
+    background-color: #f2f5fb !important;
+    margin-bottom: 2%;
+}
+
+.button-hover p {
+    display: flex;
+}
+
+.button-hover:hover {
+    background: white;
+    color: blue;
+}
+
+.button-hover:hover p {
+    color: black;
+}
+
+icons {
+    font-family: icons;
+    font-size: 18pt;
+}
+
+.nav-justify div {
+    margin-top: 25px;
+}
+
+.nav-justify:hover {
+    width: 15%;
+}
+
+.nav-justify:hover div p lil {
+    display: block;
+    width: 70%;
+}
+
+.nav-justify:hover div p icons {
+    width: 20%;
+}
+
+lil {
+    display: none;
+}
+
+.ymandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+}
+
+.centt {
+    margin-top: 30%;
+}
+
+.icon {
+    height: 40px !important;
+    width: 40px;
+    fill: purple;
+}
+
+#icon {
+    fill: purple;
+}
+
+.dropdown {
+    width: -webkit-fill-available;
+    margin: 0 11%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.t-center {
+    text-align: center !important;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-f {
+    width: -webkit-fill-available;
+}
+
+.c-hover {
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.t-l {
+    text-align: center !important;
+}
+
+.c-hover h1 {
+    font-weight: 500;
+    font-size: 18pt;
+}
+
+.c-hover mark {
+    background: #eee;
+}
+
+.c-hover:hover {
+    background-color: rgb(249, 249, 253);
+}
+
+.c-hover:hover mark {
+    background-color: yellow;
+}
+
+.tl {
+    text-align: left;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.w-70 {
+    width: 70%
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: #eee;
+    border-radius: 5px;
+    width: 70%;
+    margin: 1%
+}
+
+li {
+    flex: left;
+    transition: 0.25s;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+    background-color: rgb(43, 57, 255);
+    border-left: 5px solid rgb(0, 255, 136);
+}
+
+.c-yellow {
+    color: yellow
+}
+
+.brit {
+    border-left: 10px solid blueviolet;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.brit:hover {
+    border-left: 50px solid white;
+}
+
+.d-black {
+    background-color: rgb(18, 14, 39);
+    color: white;
+}
+
+.border {
+    border: 3px solid yellow;
+}
+
+.blue-b {
+    background-color: rgb(39, 22, 104);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.blue-g {
+    background-color: rgb(16, 252, 114);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.radius-lil {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none !important;
+    color: black;
+}
+
+.bb {
+    margin-right: 10%;
+}
+
+.c-blue {
+    color: blueviolet
+}
+
+.black-card {
+    background: linear-gradient(220deg, #9c27b0, #313498eb);
+    color: white !important
+}
+
+li .eee {
+    transition: 0.25s;
+}
+
+li:hover .eee {
+    background-color: blue !important;
+    color: white !important;
+}
+
+li:hover .eee p {
+    color: white;
+}
+
+li:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .padding {
+        padding: 5px;
+    }
+    .nav {
+        display: none;
+    }
+    .w-70 {
+        width: -webkit-fill-available
+    }
+    .w-80 {
+        width: -webkit-fill-available !important;
+    }
+}
+
+.m-r {
+    margin-right: 2% !important;
+}
+
+.t-w {
+    color: white !important;
+    font-weight: bolder;
+}
+
+.container {
+    height: -webkit-fill-available;
+}
+
+.black {
+    background-color: #444 !important;
+}
+
+.m-l {
+    margin-left: 1%;
+}
+
+.recycler {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+ul {
+    display: block;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0px
+}
+
+.jc {
+    justify-content: space-between;
+    text-align: left !important;
+}
+
+.bubble {
+    max-width: 100%;
+    font-weight: bolder !important;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bubbles {
+    position: relative;
+    padding-top: 5%;
+    box-shadow: 0px 0px 10px #eee;
+    height: 80%;
+}
+
+.top-banner {
+    height: 8%;
+    background-color: #d2d2d2;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.no-b {
+    border-radius: 0px !important;
+}
+
+.no-p {
+    padding: 5px !important;
+}
+
+.recycler-box {
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.recycler-box:hover {
+    background-color: rgb(240, 248, 255);
+}
+
+.b-rit {
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+
+.b-left {
+    position: absolute;
+    left: 0;
+}
+
+.blue {
+    background-color: rgb(19, 19, 136);
+    color: white !important;
+}
+
+.blue p {
+    color: white
+}
+
+.inputs {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+.m--b {
+    margin-bottom: 10%;
+}
+
+.ymandatory-scroll-snapping {
+    scroll-snap-type: y mandatory;
+    flex-flow: column nowrap;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(94, 94, 94);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+    border: 0px solid orange;
+    /* creates padding around scroll thumb */
+}
+
+#bubbles::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+
+#bubbles::-webkit-scrollbar-track {
+    background: rgb(194, 194, 194);
+    /* color of the tracking area */
+}
+
+#bubbles::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+    border: 0px solid orange;
+    /* creates padding around scroll thumb */
+}
+
+#recycler::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+}
+
+#recycler::-webkit-scrollbar-track {
+    background: rgb(194, 194, 194);
+    /* color of the tracking area */
+}
+
+#recycler::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+    border: 0px solid orange;
+    /* creates padding around scroll thumb */
+}
+
+.sender {
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.radius-c {
+    border-radius: 50px !important;
+    margin-right: -15px;
+    border: 2px solid white;
+}
+
+.sender:hover {
+    background: blue;
+    color: white;
+}
+
+tr th {
+    text-align: left !important;
+    background-color: rgba(2, 2, 8, 0.158);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+table {
+    border-radius: 45px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.158);
+}
+
+tr {
+    border-radius: 10px;
+}
+
+.b p {
+    font-weight: 700 !important;
+}
+
+.ddd {
+    background: #ccc !important;
+}
+
+.t-b {
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.c-b {
+    background-color: #2d8bff !important;
+    color: white !important;
+}
+
+.c-black {
+    color: gray !important;
+}
+
+.justify {
+    justify-content: start;
+}
+
+.avatar {
+    height: 20px !important;
+    width: 20px !important;
+    
+}
+.avatar b{
+    color: black !important;
+}
+
+.image-cards .mrit {
+    margin-right: 2%
+}
+
+.c-b p {
+    color: white
+}
+
+.left {
+    text-align: left !important;
+}
